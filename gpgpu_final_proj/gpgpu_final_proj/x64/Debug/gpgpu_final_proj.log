@@ -1,0 +1,32 @@
+﻿  Compiling CUDA source file ..\helpers.cu...
+  Compiling CUDA source file ..\histoHDR.cu...
+  
+  C:\Users\Arsham\Documents\EDU\Courses\GPGPU\Project\toSend\vs\gpgpu_final_proj\gpgpu_final_proj>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -IC:\opencv\build\include\opencv2 -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\helpers.cu.obj "C:\Users\Arsham\Documents\EDU\Courses\GPGPU\Project\toSend\vs\gpgpu_final_proj\helpers.cu" 
+  
+  C:\Users\Arsham\Documents\EDU\Courses\GPGPU\Project\toSend\vs\gpgpu_final_proj\gpgpu_final_proj>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -IC:\opencv\build\include\opencv2 -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\histoHDR.cu.obj "C:\Users\Arsham\Documents\EDU\Courses\GPGPU\Project\toSend\vs\gpgpu_final_proj\histoHDR.cu" 
+  histoHDR.cu
+  helpers.cu
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(110): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(112): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(129): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(161): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(162): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(165): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(167): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(153): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'const size_t'
+  C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/histoHDR.cu(153): note: consider using '%zd' in the format string
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/helpers.cu(181): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/helpers.cu(183): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/helpers.cu(210): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/helpers.cu(210): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/helpers.cu(242): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:/Users/Arsham/Documents/EDU/Courses/GPGPU/Project/toSend/vs/gpgpu_final_proj/helpers.cu(247): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  loadSaveImage.cpp
+c:\users\arsham\documents\edu\courses\gpgpu\project\tosend\vs\gpgpu_final_proj\loadsaveimage.cpp(97): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\arsham\documents\edu\courses\gpgpu\project\tosend\vs\gpgpu_final_proj\loadsaveimage.cpp(98): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\arsham\documents\edu\courses\gpgpu\project\tosend\vs\gpgpu_final_proj\loadsaveimage.cpp(114): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\arsham\documents\edu\courses\gpgpu\project\tosend\vs\gpgpu_final_proj\loadsaveimage.cpp(115): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+     Creating library C:\Users\Arsham\Documents\EDU\Courses\GPGPU\Project\toSend\vs\gpgpu_final_proj\x64\Debug\gpgpu_final_proj.lib and object C:\Users\Arsham\Documents\EDU\Courses\GPGPU\Project\toSend\vs\gpgpu_final_proj\x64\Debug\gpgpu_final_proj.exp
+  gpgpu_final_proj.vcxproj -> C:\Users\Arsham\Documents\EDU\Courses\GPGPU\Project\toSend\vs\gpgpu_final_proj\x64\Debug\gpgpu_final_proj.exe
